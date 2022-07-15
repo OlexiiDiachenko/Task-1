@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    --main-text-color: #3b3b3b;
+    --first-text-color: #4C5159;
+    --second-text-color: #eeeeee;
+    --main-accent-color: #4baddb;
+    --second-accent-color: #005889;
+    --background-color-text: #f8f8f8;
+    --main-gradient-color: linear-gradient(to left, #3BA8DC 0%, rgba(150, 219, 252, 0) 245.24%);
+    --background-color: #fcfcfc;
+    --background-color-white: #ffffff;
+}
+
+
+/* Text */
+
+.h0 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: auto;
+    letter-spacing: 0.02rem;
+}
+
+.h1-filter {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.h1-sub {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+.h2-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.h2 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.02rem;
+}
+
+.h2-table {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--main-text-color);
+}
+
+.h2-results {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3B3B3B;
+}
+
+.h4-input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02rem;
+}
+
+.h4-card {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--main-text-color);
+}
+
+.h5-number {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.h5-buttons {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.p-adv {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+}
+
+.h1-stats {
+    font-size: 64px;
+    line-height: 87px;
+    font-weight: 700;
+    letter-spacing: 0.115em;
+}
+
+.p1-stats {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+
+.p2 {
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+.p3 {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pd-r-3 {
+    padding-right: 3rem;
+}
+
+/* Buttons */
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-md {
+    height: 56px;
+    width: 265px;
+    border-radius: 56px;
+}
+
+.button-md-2 {
+    height: 56px;
+    width: 320px;
+    border-radius: 56px;
+}
+
+.btn-0 {
+    border: none;
+    background: none;
+}
+
+button.h5-buttons {
+    height: 46px;
+    padding: 9px 29px 10px;
+    margin-right: 20px;
+    border-radius: 6px;
+    color: var(main-text-color);
+    background: none;
+    border: none;
+}
+
+.h4-buttons {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.button-form-2 {
+    height: 74px;
+    background: linear-gradient(267.54deg, #3BA8DC 0%, rgba(150, 219, 252, 0) 245.24%), linear-gradient(267.54deg, #3BA8DC 0%, rgba(150, 219, 252, 0) 245.24%);
+    border-radius: 37px;
+    color: #ffffff;
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+.fl-2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1fr, 1fr;
+}
+
+.fl-3 {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+}
+
+
+/* Grids */
+
+.grid {
+    display: grid;
+}
+
+.gr-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gr-3-2 {
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.gr-3 {
+    grid-template-columns: 5fr 1fr 1fr;
+}
+
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.gr-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 17px;
+}
+
+.gr-4-1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gr-inputs {
+    grid-template-columns: 20% 80%;
+}
+
+.gr-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Lists */
+
+ul li {
+    list-style: none;
+}
+
+li.menus {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3B3B3B;
+}
+
+/* Images */
+
+img {
+    border-radius: 20px;
+}
+
+.float-l img {
+    float: left;
+}

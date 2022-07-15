@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/roots.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Grand Property Group</title>
+</head>
+
+<body>
+    <header class="header container">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+        <div class="header-container ">
+            <div class="header-top grid grid-3">
+                <div class="flex header-info">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p class="h5-number">+357 25 028 476</p>
+                </div>
+                <div class="flex header-info">
+                    <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+                    <a class="h3" href="#">ВОЙТИ</a>
+                </div>
+                <div class="flex header-info languages">
+                    <a class="h3" href="#"><i class="fa-solid fa-poo"></i>RU</a>
+                    <p>|</p>
+                    <a class="h3" href="#"><img src="./images/England.png" alt="">EN</a>
+                </div>
+            </div>
+            <div class="header-buttons ">
+                <button class="btn-header-left btn-md">РАЗМЕСТИТЬ ОБЪЕКТ</button>
+                <button class="btn-header-right btn-md">ПЕРЕЗВОНИТЬ МНЕ</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="navigation">
+            <nav>
+                <ul class="nav flex">
+                    <li><a href="#">НАШИ ПРОЕКТЫ</a></li>
+                    <li><a href="#">ПРОДАЖА</a></li>
+                    <li><a href="#">АРЕНДА</a></li>
+                    <li><a href="#">ИММИГРАЦИЯ</a></li>
+                    <li><a href="#">ИНФОРМАЦИЯ</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="menu container grid gr-3-2">
+            <ul class="flex menus">
+                <li class="menus-filter">Продажа недвижимости (10805)
+                    <ul>
+                        <li><a href="#">Some text</a>
+                            <ul>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Some text</a></li>
+                        <li><a href="#">Some text</a>
+                            <ul>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Some text</a></li>
+                        <li><a href="#">Some text</a></li>
+                    </ul>
+                </li>
+                <li class="menus-filter">Долгосрочная аренда (706)</li>
+                <li class="menus-filter">Краткосрочная аренда (1110)</li>
+            </ul>
+            <div class="functions flex">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <h4 class="pd-r-3 h3">Список сравнений</h4>
+                <i class="fa-solid fa-star"></i>
+                <h4 class="pd-r-3 h3">Избранное</h4>
+                <input class="h4-input" type="text" name="" id="" placeholder="Поиск по ID">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <div class="text">
+                <h1 class="h0">НЕДВИЖИМОСТЬ НА КИПРЕ</h1>
+                <p class="h4">ВИБЕРИТЕ ДОМ ВАШЕЙ МЕЧТЫ УЖЕ СЕГОДНЯ!</p>
+                <button>ПЕРЕЗВОНИТЕ МНЕ</button>
+            </div>
+            <div class="presentation-buttons flex">
+                <button class="slider active"></button>
+                <button class="slider"></button>
+                <button class="slider"></button>
+                <button class="slider"></button>
+            </div>
+        </section>
+
+        <section class="booking">
+            <div class="filter flex ">
+                <div class="filter-menu flex active">
+                    <img src="./images/dollar.png" alt="">
+                    <h4 class="filters-text h3">Продажа недвижимости</h4>
+                </div>
+                <div class="filter-menu flex">
+                    <img src="./images/calendar.png" alt="">
+                    <h4 class="filters-text h3">Долгосрочная аренда</h4>
+                </div>
+                <div class="filter-menu flex">
+                    <img src="./images/clock.png" alt="">
+                    <h4 class="filters-text h3">Краткосрочная аренда</h4>
+                </div>
+            </div>
+
+            <div class="filter-content">
+                <div class="content grid grid-3">
+                    <div class="content-info mg-t">
+                        <h1 class=" h4-input">Город</h1>
+                        <select name="filter-content"></select>
+                    </div>
+                    <div class=" content-info mg-t">
+                        <h1 class="h4-input">Район</h1>
+                        <select name="filter-content"></select>
+                    </div>
+                    <div class="content-info mg-t">
+                        <h1 class="h4-input">Тип недвижимости</h1>
+                        <select name="filter-content"></select>
+                    </div>
+                    <div class="content-info mg-b">
+                        <h1 class="h4-input">Количество спален</h1>
+                        <select name="filter-content"></select>
+                    </div>
+                    <div class="content-info mg-b">
+                        <h1 class="h4-input">Количество сан.узлов</h1>
+                        <select name="filter-content"></select>
+                    </div>
+                    <div class="content-last mg-b grid gr-2">
+                        <div>
+                            <h1 class="h4-input">Мин.цена</h1>
+                            <select name="filter-content"></select>
+                        </div>
+                        <div>
+                            <h1 class="h4-input">Макс.цена</h1>
+                            <select name="filter-content">"Выберите из списка"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttons flex">
+                    <button class="button-md-2 h3 btn-1"> Найти недвижимость </button>
+                    <button class="button-md-2 h3 btn-2"> Расширенный поиск </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="results ">
+            <div class="results-container">
+                <div class="results-text-flex flex mgt-60">
+                    <div class="results-text">
+                        <h1 class="h1-filter">Виллы в Пафосе на продажу</h1>
+                    </div>
+                    <div class="show-all flex results-text-flex">
+                        <h3 class="h5-number">196 объектов</h3>
+                        <button class="btn-show-all h5-number">Показать все <i
+                                class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="result-info-grid grid gr-4">
+                    <div class="result-info ">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table " colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2"><span class="unik">&euro; 2 222</span>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center float-l "> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l "><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l "><img src="./images/appartments.png" alt="">800m
+                                        </td>
+                                        <td class="center float-l "><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info shadow">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l large" colspan="4"><img
+                                                src="./images/villa.png" alt="">Villa</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr class="sale">
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                                222</span></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l large" colspan="4"><img
+                                                src="./images/villa.png" alt="">
+                                            Villa
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-text-flex flex mgt-60">
+                    <div class="results-text">
+                        <h1 class="h1-filter">Долгосрочная аренда Лимассол</h1>
+                    </div>
+                    <div class="show-all flex results-text-flex">
+                        <h3 class="h5-number">196 объектов</h3>
+                        <button class="btn-show-all h5-number">Показать все <i
+                                class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="result-info-grid grid gr-4">
+                    <div class="result-info ">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table " colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2"><span class="unik">&euro; 2 222</span>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center float-l "> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l "><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l "><img src="./images/appartments.png" alt="">800m
+                                        </td>
+                                        <td class="center float-l "><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l large" colspan="4"><img
+                                                src="./images/villa.png" alt="">Villa</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr class="sale">
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                                222</span></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l large" colspan="4"><img
+                                                src="./images/villa.png" alt="">
+                                            Villa
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-text-flex flex mgt-60">
+                    <div class="results-text">
+                        <h1 class="h1-filter">Недвижимость на Кипре для получения Вида на жительство</h1>
+                    </div>
+                    <div class="show-all flex results-text-flex">
+                        <h3 class="h5-number">196 объектов</h3>
+                        <button class="btn-show-all h5-number">Показать все <i
+                                class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="result-info-grid grid gr-4">
+                    <div class="result-info ">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table " colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2"><span class="unik">&euro; 2 222</span>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center float-l "> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l "><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l "><img src="./images/appartments.png" alt="">800m
+                                        </td>
+                                        <td class="center float-l "><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info ">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l large" colspan="4"><img
+                                                src="./images/villa.png" alt="">Villa</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr class="sale">
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                                222</span></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l large" colspan="4"><img
+                                                src="./images/villa.png" alt="">
+                                            Villa
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-text-flex flex mgt-60">
+                    <div class="results-text">
+                        <h1 class="h1-filter">Последние обновления</h1>
+                    </div>
+                    <div class="show-all flex results-text-flex">
+                        <h3 class="h5-number">196 объектов</h3>
+                        <button class="btn-show-all h5-number">Показать все <i
+                                class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="results-buttons-filter flex">
+                    <img src="./images/filter.png" alt="filter-image">
+                    <button class="last-refresh active-refresh h5-buttons">Продажа недвижимости</button>
+                    <button class="last-refresh h5-buttons">Долгосрочная аренда</button>
+                    <button class="last-refresh h5-buttons">Краткосрочная аренда</button>
+                </div>
+                <div class="result-info-grid grid gr-4">
+                    <div class="result-info ">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table " colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2"><span class="unik">&euro; 2 222</span>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center float-l "> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l "><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l "><img src="./images/appartments.png" alt="">800m
+                                        </td>
+                                        <td class="center float-l "><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/villa.png"
+                                                alt="">Villa</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr class="sale">
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                                222</span></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="2"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <div class="image">
+                            <img src="./images/result.png" alt="photo">
+                        </div>
+                        <div class="table-info">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td class="start h2-table" colspan="2">Elit spa villa</td>
+                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/villa.png"
+                                                alt="">
+                                            Villa
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
+                                                alt="">Лимассол.
+                                            Агиос
+                                            Амвросиос</td>
+                                    </tr>
+                                    <tr class="border">
+                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
+                                        <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
+                                        <td class="center float-l"><img src="./images/strelochki.png"
+                                                alt="">85m<sup>2</sup>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantege flex">
+            <div class="advantege-strategy grid gr-5">
+                <div class="advantege-strategy-image first-item">
+                    <img src="./images/advantege 1.png" alt="">
+                    <p>Команда профессионалов в сфере нежвижимости на Кипре</p>
+                </div>
+                <div class="advantege-strategy-image second second-item">
+                    <img src="./images/advantege 2.png" alt="">
+                    <p>Многолетний опыт позволяет нам быть лидерами в области</p>
+                </div>
+                <div class="advantege-strategy-image third-item">
+                    <img src="./images/advantege 3.png" alt="">
+                    <p>Индивидуальный подход к каждому клиенту</p>
+                </div>
+                <div class="advantege-strategy-image fourth-item">
+                    <img src="./images/advantege 4.png" alt="">
+                </div>
+                <div class="advantege-strategy-image last-component">
+                    <img src="./images/advantege 5.png" alt="">
+                    <p>Обширный каталог объектов</p>
+                </div>
+            </div>
+            <div class="advantege-content">
+                <div class="advantege-text">
+                    <h1 class="h1-filter">Секрет нашей успешной работы:</h1>
+                    <p class="p-adv">Любовь к своему делу и честность в работе</p>
+                    <p class="h3">Grand Property специализирующееся на продаже вилл, квартир, апартаментов,
+                        мезонетов и
+                        других объектов недвижимости.<br><br> В своей работе агентство руководствуется
+                        принципами
+                        европейского
+                        менеджмента и выгодно отличается прямыми договорными отношениями с застройщиками.
+                        Высокое
+                        доверие
+                        клиентов и лидирующие позиции в предоставлении высококачественного сервиса по продаже и
+                        подбору
+                        объектов недвижимости на Кипре — фирменные черты Grand Property.</p>
+                </div>
+                <div class="rooms flex">
+                    <img src="./images/left.png" alt="">
+                    <img src="./images/right.png" alt="">
+                </div>
+                <div class="advantege-stats">
+                    <div class="advantege-indicators flex">
+                        <div class="stats">
+                            <h1 class="h1-stats">2078</h1>
+                            <p class="p1-stats">Resale properties for Sale in Cyprus</p>
+                        </div>
+                        <div class="stats">
+                            <h1 class="h1-stats">1560</h1>
+                            <p class="p1-stats">New homes for sale <br> in Cyprus</p>
+                        </div>
+                        <div class="stats">
+                            <h1 class="h1-stats">6247</h1>
+                            <p class="p1-stats">Properties <br> for rent in Cyprus</p>
+                        </div>
+                        <div class="stats">
+                            <h1 class="h1-stats">9885</h1>
+                            <p class="p1-stats">Total properties for sale in Cyprus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe grid gr-3-2">
+            <div class="sub-text">
+                <h1 class="h1-sub">Подпишитесь на наши новости</h1>
+                <p class="p1-stats">Последние новости о недвижимости, статьи и ресурсы еженедельно отправляются
+                    в ваш
+                    почтовый ящик</p>
+            </div>
+            <div class="form">
+                <h3 class="p1-stats">Введите свой постовый адрес</h3>
+                <div class="filling flex">
+                    <input type="email" placeholder="your.email@com">
+                    <button type="submit">Подписаться</button>
+                </div>
+                <p class="h4-input">Мы заботимся о защите Ваших данных</p>
+                <a class="h4-input" href="#">Политикa Конфиденциальности</a>
+            </div>
+        </section>
+
+        <section class="building-company-info flex">
+            <div>
+                <div class="company-info grid gr-2">
+                    <div class="company-info-text">
+                        <h1 class="h1-filter">Компания застройщик на Кипре</h1>
+                        <p class="p1-stats">GRAND PROPERTY - lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut
+                            aliquam, purus
+                            sit
+                            amet luctus venenatis, lectus magna fringilla urna. <br><br>
+                            Er tyur kgl fddktjut gjoeok fkjytuor yuio pottorisan victort ek porttitor rhoncus
+                            dolor
+                            purus
+                            non enim praesent elementum facilisis leo, vel Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                            urna,
+                            porttitor rhoncus dolor purus non enim praesent elementum.</p>
+                        <div class="grid gr-3-2 btn-info">
+                            <div class="grey flex">
+                                <button class="p1-stats"><i class="fa-solid fa-angle-up"></i> Grand Luxury
+                                    Villa</button>
+                            </div>
+                            <div class="white flex">
+                                <a href="#">Перейти к объекту</a>
+                            </div>
+                        </div>
+                        <div class="company-info-text-table grid gr-2">
+                            <div class="left">
+                                <div class="flex">
+                                    <h4 class="p3">Город:</h4>
+                                    <h4 class="p2">Лимассол</h4>
+                                </div>
+                                <div class="flex">
+                                    <h4 class="p3">Район:</h4>
+                                    <h4 class="p2">Потамос Гермасоя</h4>
+                                </div>
+                                <div class="flex">
+                                    <h4 class="p3">Тип:</h4>
+                                    <h4 class="p2">Закрытый ЖК у моря</h4>
+                                </div>
+                                <div class="flex last">
+                                    <h4 class="p3">Объектов:</h4>
+                                    <h4 class="p2">9</h4>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="flex">
+                                    <h4 class="p3">Площадь:</h4>
+                                    <h4 class="p2">от 116 до 316 м.кв</h4>
+                                </div>
+                                <div class="flex">
+                                    <h4 class="p3">Размер участка:</h4>
+                                    <h4 class="p2">0 кв.м</h4>
+                                </div>
+                                <div class="flex">
+                                    <h4 class="p3">До моря:</h4>
+                                    <h4 class="p2">700м</h4>
+                                </div>
+                                <div class="flex last">
+                                    <h4 class="p3">Выбор:</h4>
+                                    <h4 class="p2">Апартаменты и Пентхаусы</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images ">
+                        <img class="left-bottom" src="./images/Left-bottom.png" alt="">
+                        <img class="middle" src="./images/Middle.png" alt="">
+                        <img class="right-top" src="./images/Right-top.png" alt="">
+                    </div>
+                </div>
+                <div class="resident-card flex">
+                    <img src="./images/building-company.png" alt="">
+                    <div class="resident-card-text">
+                        <h1 class="h1-filter">ВНЖ на Кипре</h1>
+                        <p class="h3">Вид на жительство Республики Кипр – возможность иностранцев получить право
+                            жить и
+                            работать в
+                            стране с прекрасным климатом, безвизовыми путешествиями во многие страны мира, а
+                            также
+                            множеством налоговых льгот.<br> Кипр – одно из немногих государств ЕС, наиболее
+                            открытых для
+                            граждан
+                            третьих стран. В соответствии с Положением 5 Закона Кипра об Иностранцах и
+                            Иммиграции 1972
+                            года,
+                            иностранцы могут получить вид на жительство на Кипре, если они попадают под одну из
+                            категорий,
+                            описанных на нашем сайте.</p>
+                        <button class="h4-buttons">Подробнее о ВНЖ <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions flex">
+            <div class="question">
+                <h1 class="h1-filter">Часто задаваемые вопросы</h1>
+            </div>
+            <div class="q-a flex">
+                <details>
+                    <summary>Какие преимущества покупки недвижимости на Кипре ?</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                        venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent
+                        elementum facilisis leo, vel Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                        aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
+                        dolor purus non enim praesent elementum.</p>
+                </details>
+                <details>
+                    <summary>Какие преимущества покупки недвижимости на Кипре ?</summary>
+                </details>
+                <details>
+                    <summary>Как получить гражданство Кипра при покупке недвижимости?</summary>
+                </details>
+                <details>
+                    <summary>Какая стоимость аренды недвижимости и коммунальных платежей на Кипре?</summary>
+                </details>
+                <details>
+                    <summary>Размер налога при на объекты недвижимости на Кипре?</summary>
+                </details>
+                <details>
+                    <summary>Как продать недвижимость на кипре ?</summary>
+                </details>
+                <details>
+                    <summary>Можно ли получить ВНЖ Кипра иностранцам при покупки недвижимости?</summary>
+                </details>
+            </div>
+        </section>
+
+        <section class="contacts flex">
+            <div class="phrases">
+                <h1 class="h1-filter">Фраза призыв к действию</h1>
+                <p class="h5-buttons">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                    sit amet
+                    luctus venenatis,
+                    lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum
+                    facilisis
+                    leo, vel Lorem ipsum dolor sit</p>
+                <h2 class="h2">Связаться с нами по телефону:</h2>
+                <div class="flex">
+                    <img class="float-l" src="./images/phone-call.png" alt="phone">
+                    <p class="h5-number">+357 25 028 476</p>
+                </div>
+                <h2 class="h2">По почте:</h2>
+                <div class="flex">
+                    <img class="float-l" src="./images/email.png" alt="phone">
+                    <p class="h5-number">info@grand-property.com</p>
+                </div>
+                <h2 class="h2">Или через мессенджер:</h2>
+                <div class="grid gr-4-1">
+                    <div class="flex">
+                        <img class="float-l" src="./images/skype 1.png" alt="phone">
+                        <p class="h5-number">Skype</p>
+                    </div>
+                    <div class="flex">
+                        <img class="float-l" src="./images/whatsapp 1.png" alt="phone">
+                        <p class="h5-number">WhatsApp</p>
+                    </div>
+                    <div class="flex">
+                        <img class="float-l" src="./images/Viber.png" alt="phone">
+                        <p class="h5-number">Viber</p>
+                    </div>
+                    <div class="flex">
+                        <img class="float-l" src="./images/Telegram.png" alt="phone">
+                        <p class="h5-number">Telegram</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-2 flex">
+                <form action="" class="flex">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Ваше имя">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" placeholder="Ваша почта">
+                    <div class="inputs grid gr-inputs">
+                        <label for="phone">Ваш телефон</label>
+                        <select name="" id="phone" class="input-left">
+                            <option value="image"></option>
+                        </select>
+                        <input type="text" id="" placeholder="+ 48 (268) 678 57 98">
+                    </div>
+                    <label for="feedback">Ваше сообщение</label>
+                    <textarea name="" id="feedback" cols="30" rows="4" placeholder="Текст"></textarea>
+                    <button class="button-form-2">Оставить заявку</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="top-footer flex">
+                <img src="./images/logo.png" alt="logo">
+                <div class="footer-list">
+                    <h3>ИНФОРМАЦИЯ</h3>
+                    <ul>
+                        <li>Карьера</li>
+                        <li>Контакты</li>
+                        <li>О компании</li>
+                        <li>Общая информация</li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3>НЕДВИЖИМОСТЬ</h3>
+                    <ul>
+                        <li>Краткосочная аренда</li>
+                        <li>Долгосрочная аренда</li>
+                        <li>Продажа недвижимости</li>
+                        <li>Добавить недвижимость</li>
+                    </ul>
+                </div>
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <div class="footer-contacts-icons flex">
+                        <img src="./images/skype 1.png" alt="Skype">
+                        <img src="./images/whatsapp 1.png" alt="WhatsApp">
+                        <img src="./images/Viber.png" alt="Viber">
+                        <img src="./images/Telegram.png" alt="Telegram">
+                    </div>
+                </div>
+                <div class="social">
+                    <h3>Социальные сети</h3>
+                    <div class="footer-contacts-icons flex">
+                        <img src="./images/facebook 1.png" alt="">
+                        <img src="./images/vk 1.png" alt="">
+                        <img src="./images/instagram 1.png" alt="">
+                        <img src="./images/linkedin 1.png" alt="">
+                        <img src="./images/twitter 1.png" alt="">
+                        <img src="./images/odnoklassniki 1.png" alt="">
+                    </div>
+                    <div class="flex btn-follow">
+                        <button class="h2-text flex"><img src="./images/facebook white.png" alt="">
+                            Подписаться</button>
+                        <p>14 000 человек</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer flex">
+                <h5>© 2016-2022 all right reserved Grand Property</h5>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
