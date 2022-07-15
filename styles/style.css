@@ -116,7 +116,7 @@ ul.menus li.menus-filter {
 }
 
 .menus-filter::after {
-    content: url(../images/menu.png);
+    content: url(../images/Menu.png);
     position: absolute;
     top: -3px;
     right: 36px;
