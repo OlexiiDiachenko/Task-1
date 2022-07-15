@@ -158,6 +158,18 @@ ul.menus li.menus-filter {
     align-items: center;
 }
 
+.functions-filter {
+    align-items: center;
+}
+
+.functions-filter h4 {
+    margin: 0;
+}
+
+.functions h4 {
+    padding-left: 10px;
+}
+
 .functions>* {
     margin-top: 0;
     margin-bottom: 0;
@@ -250,6 +262,10 @@ ul.menus li.menus-filter {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     color: var(--first-text-color);
+}
+
+.filter-menu:hover {
+    cursor: pointer;
 }
 
 .filter .active {
