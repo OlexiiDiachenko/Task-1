@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/roots.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./media/xs.css">
     <title>Grand Property Group</title>
     <link rel="shortcut icon" type="image/x-icon" href="./images/1657897973.ico">
 </head>
@@ -40,9 +41,13 @@
                 <button class="btn-header-right btn-md">ПЕРЕЗВОНИТЬ МНЕ</button>
             </div>
         </div>
+
+        <img class="media" src="./images/menu-media.png" alt="menu">
+
     </header>
     <main>
-        <section class="navigation">
+
+        <div class="navigation">
             <nav>
                 <ul class="nav flex">
                     <li><a href="#">НАШИ ПРОЕКТЫ</a></li>
@@ -53,9 +58,9 @@
                     <li><a href="#">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
 
-        <section class="menu container grid gr-3-2">
+        <section class="menu grid gr-3-2">
             <ul class="flex menus">
                 <li class="menus-filter">Продажа недвижимости (10805)
                     <ul>
@@ -82,38 +87,114 @@
                         <li><a href="#">Some text</a></li>
                     </ul>
                 </li>
-                <li class="menus-filter">Долгосрочная аренда (706)</li>
-                <li class="menus-filter">Краткосрочная аренда (1110)</li>
+                <li class="menus-filter">Долгосрочная аренда (706)
+                    <ul>
+                        <li><a href="#">Some text</a>
+                            <ul>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Some text</a></li>
+                        <li><a href="#">Some text</a>
+                            <ul>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Some text</a></li>
+                        <li><a href="#">Some text</a></li>
+                    </ul>
+                </li>
+                <li class="menus-filter">Краткосрочная аренда (1110)
+                    <ul>
+                        <li><a href="#">Some text</a>
+                            <ul>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Some text</a></li>
+                        <li><a href="#">Some text</a>
+                            <ul>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a>
+                                    <ul>
+                                        <li><a href="#">Some text</a>
+                                            <ul>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Some text</a></li>
+                                        <li><a href="#">Some text</a>
+                                            <ul>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                                <li><a href="#">Some text</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Some text</a></li>
+                                        <li><a href="#">Some text</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Some text</a></li>
+                        <li><a href="#">Some text</a></li>
+                    </ul>
+                </li>
             </ul>
             <div class="functions flex">
                 <i class="fa-solid fa-scale-balanced"></i>
                 <h4 class="pd-r-3 h3">Список сравнений</h4>
                 <img src="./images/star.png" alt="">
                 <h4 class="pd-r-3 h3">Избранное</h4>
-                <input class="h4-input" type="text" name="" id="" placeholder="Поиск по ID">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input class="h4-input" type="text" name="search" placeholder="Поиск по ID">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         </section>
 
-        <section class="presentation">
+        <section class="presentation flex">
             <div class="text">
-                <h1 class="h0">НЕДВИЖИМОСТЬ НА КИПРЕ</h1>
-                <p class="h4">ВИБЕРИТЕ ДОМ ВАШЕЙ МЕЧТЫ УЖЕ СЕГОДНЯ!</p>
+                <h1 class="h0 ">НЕДВИЖИМОСТЬ НА КИПРЕ для жизни <br>и инвестиций</h1>
+                <h4 class="speech">ВИБЕРИТЕ ДОМ ВАШЕЙ МЕЧТЫ УЖЕ СЕГОДНЯ!</h4>
+                <pre
+                    class="media">Широкий выбор объектов для покупки и аренды. Возможность максимально выгодно продать <br>свою недвижимость. <br>Бесплатная консультация специалистов!</pre>
                 <button>ПЕРЕЗВОНИТЕ МНЕ</button>
             </div>
-            <div class="presentation-buttons flex">
-                <button class="slider active"></button>
-                <button class="slider"></button>
-                <button class="slider"></button>
-                <button class="slider"></button>
+            <div class="slider flex">
+                <div class="presentation-buttons flex">
+                    <button class="slider active"></button>
+                    <button class="slider"></button>
+                    <button class="slider"></button>
+                    <button class="slider"></button>
+                </div>
             </div>
         </section>
 
         <section class="booking">
-            <div class="filter flex ">
+            <div class="filter flex">
                 <div class="filter-menu flex active">
                     <img src="./images/dollar.png" alt="">
-                    <h4 class="filters-text h3">Продажа недвижимости</h4>
+                    <h4 class="filters-text h3 media-active">Продажа недвижимости</h4>
                 </div>
                 <div class="filter-menu flex">
                     <img src="./images/calendar.png" alt="">
@@ -154,7 +235,7 @@
                         </div>
                         <div>
                             <h1 class="h4-input">Макс.цена</h1>
-                            <select name="filter-content">"Выберите из списка"></select>
+                            <select name="filter-content"></select>
                         </div>
                     </div>
                 </div>
@@ -219,7 +300,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="result-info shadow">
+                    <div class="result-info ">
                         <div class="image">
                             <img src="./images/result.png" alt="photo">
                         </div>
@@ -263,7 +344,7 @@
                                 <thead>
                                     <tr class="sale">
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                        <td class="end sale h2-results" colspan="2"><span class="unik">&euro; 2
                                                 222</span></td>
                                     </tr>
                                 </thead>
@@ -273,7 +354,7 @@
                                                 alt="">
                                             Villa
                                         </td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                     <tr>
                                         <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
@@ -302,7 +383,7 @@
                                 <thead>
                                     <tr>
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -319,7 +400,7 @@
                                             Амвросиос</td>
                                     </tr>
                                     <tr class="border">
-                                        <td class="center float-l"> <img src="./images/bed.png" alt=""> 2</td>
+                                        <td class="center float-l"> <img src="./images/bed.png" alt="">2</td>
                                         <td class="center float-l"><img src="./images/shower.png" alt="">2</td>
                                         <td class="center float-l"><img src="./images/appartments.png" alt="">800m</td>
                                         <td class="center float-l"><img src="./images/strelochki.png"
@@ -330,6 +411,15 @@
                             </table>
                         </div>
                     </div>
+                </div>
+
+                <div class="buttons-media media">
+                    <button class="left-radio"><i class="fa-solid fa-angle-left"></i></button>
+                    <div class="radio active-radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <button class="right-radio"><i class="fa-solid fa-angle-right"></i></button>
                 </div>
 
                 <div class="results-text-flex flex mgt-60">
@@ -427,7 +517,7 @@
                                 <thead>
                                     <tr class="sale">
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                        <td class="end sale h2-results" colspan="2"><span class="unik">&euro; 2
                                                 222</span></td>
                                     </tr>
                                 </thead>
@@ -437,7 +527,7 @@
                                                 alt="">
                                             Villa
                                         </td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                     <tr>
                                         <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
@@ -466,7 +556,7 @@
                                 <thead>
                                     <tr>
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -494,6 +584,15 @@
                             </table>
                         </div>
                     </div>
+                </div>
+
+                <div class="buttons-media media">
+                    <button class="left-radio"><i class="fa-solid fa-angle-left"></i></button>
+                    <div class="radio active-radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <button class="right-radio"><i class="fa-solid fa-angle-right"></i></button>
                 </div>
 
                 <div class="results-text-flex flex mgt-60">
@@ -591,7 +690,7 @@
                                 <thead>
                                     <tr class="sale">
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                        <td class="end sale h2-results" colspan="2"><span class="unik">&euro; 2
                                                 222</span></td>
                                     </tr>
                                 </thead>
@@ -601,7 +700,7 @@
                                                 alt="">
                                             Villa
                                         </td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                     <tr>
                                         <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
@@ -630,7 +729,7 @@
                                 <thead>
                                     <tr>
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -660,6 +759,15 @@
                     </div>
                 </div>
 
+                <div class="buttons-media media">
+                    <button class="left-radio"><i class="fa-solid fa-angle-left"></i></button>
+                    <div class="radio active-radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <button class="right-radio"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+
                 <div class="results-text-flex flex mgt-60">
                     <div class="results-text">
                         <h1 class="h1-filter">Последние обновления</h1>
@@ -671,10 +779,12 @@
                     </div>
                 </div>
                 <div class="results-buttons-filter flex">
-                    <img src="./images/filter.png" alt="filter-image">
-                    <button class="last-refresh active-refresh h5-buttons">Продажа недвижимости</button>
-                    <button class="last-refresh h5-buttons">Долгосрочная аренда</button>
-                    <button class="last-refresh h5-buttons">Краткосрочная аренда</button>
+                    <div class="flex">
+                        <img src="./images/filter.png" alt="filter-image">
+                        <button class="last-refresh active-refresh h5-buttons">Продажа недвижимости</button>
+                    </div>
+                    <button class="last-refresh h5-buttons second-refresh">Долгосрочная аренда</button>
+                    <button class="last-refresh h5-buttons third-refresh">Краткосрочная аренда</button>
                 </div>
                 <div class="result-info-grid grid gr-4">
                     <div class="result-info ">
@@ -761,7 +871,7 @@
                                 <thead>
                                     <tr class="sale">
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end sale h2-results" colspan=" 2"><span class="unik">&euro; 2
+                                        <td class="end sale h2-results" colspan="2"><span class="unik">&euro; 2
                                                 222</span></td>
                                     </tr>
                                 </thead>
@@ -771,7 +881,7 @@
                                                 alt="">
                                             Villa
                                         </td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                     <tr>
                                         <td class="start h4-card float-l" colspan="4"><img src="./images/place.png"
@@ -800,7 +910,7 @@
                                 <thead>
                                     <tr>
                                         <td class="start h2-table" colspan="2">Elit spa villa</td>
-                                        <td class="end h2-results" colspan=" 2">&euro; 2 222</td>
+                                        <td class="end h2-results" colspan="2">&euro; 2 222</td>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -829,28 +939,39 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="buttons-media media">
+                    <button class="left-radio"><i class="fa-solid fa-angle-left"></i></button>
+                    <div class="radio active-radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <div class="radio"></div>
+                    <button class="right-radio"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+
+
             </div>
         </section>
 
         <section class="advantege flex">
             <div class="advantege-strategy grid gr-5">
                 <div class="advantege-strategy-image first-item">
-                    <img src="./images/advantege 1.png" alt="">
+                    <img src="./images/advantege-1.png" alt="">
                     <p>Команда профессионалов в сфере нежвижимости на Кипре</p>
                 </div>
                 <div class="advantege-strategy-image second second-item">
-                    <img src="./images/advantege 2.png" alt="">
+                    <img src="./images/advantege-2.png" alt="">
                     <p>Многолетний опыт позволяет нам быть лидерами в области</p>
                 </div>
                 <div class="advantege-strategy-image third-item">
-                    <img src="./images/advantege 3.png" alt="">
+                    <img src="./images/advantege-3.png" alt="">
                     <p>Индивидуальный подход к каждому клиенту</p>
                 </div>
                 <div class="advantege-strategy-image fourth-item">
-                    <img src="./images/advantege 4.png" alt="">
+                    <img src="./images/advantege-4.png" alt="">
                 </div>
                 <div class="advantege-strategy-image last-component">
-                    <img src="./images/advantege 5.png" alt="">
+                    <img src="./images/advantege-5.png" alt="">
                     <p>Обширный каталог объектов</p>
                 </div>
             </div>
@@ -1067,11 +1188,11 @@
                 <h2 class="h2">Или через мессенджер:</h2>
                 <div class="grid gr-4-1">
                     <div class="flex">
-                        <img class="float-l" src="./images/skype 1.png" alt="phone">
+                        <img class="float-l" src="./images/skype.png" alt="phone">
                         <p class="h5-number">Skype</p>
                     </div>
                     <div class="flex">
-                        <img class="float-l" src="./images/whatsapp 1.png" alt="phone">
+                        <img class="float-l" src="./images/whatsapp.png" alt="phone">
                         <p class="h5-number">WhatsApp</p>
                     </div>
                     <div class="flex">
@@ -1092,13 +1213,13 @@
                     <input type="email" id="mail" placeholder="Ваша почта">
                     <div class="inputs grid gr-inputs">
                         <label for="phone">Ваш телефон</label>
-                        <select name="" id="phone" class="input-left">
-                            <option value="image"></option>
+                        <select class="input-left">
+                            <option value="image">Страна</option>
                         </select>
-                        <input type="text" id="" placeholder="+ 48 (268) 678 57 98">
+                        <input type="text" id="phone" placeholder="+48-(268)-678-57-98">
                     </div>
                     <label for="feedback">Ваше сообщение</label>
-                    <textarea name="" id="feedback" cols="30" rows="4" placeholder="Текст"></textarea>
+                    <textarea id="feedback" cols="30" rows="4" placeholder="Текст"></textarea>
                     <button class="button-form-2">Оставить заявку</button>
                 </form>
             </div>
@@ -1111,42 +1232,26 @@
             <div class="footer-list">
                 <h3>ИНФОРМАЦИЯ</h3>
                 <ul>
-                    <a href="#">
-                        <li>Карьера</li>
-                    </a>
-                    <a href="#">
-                        <li>Контакты</li>
-                    </a>
-                    <a href="#">
-                        <li>О компании</li>
-                    </a>
-                    <a href="#">
-                        <li>Общая информация</li>
-                    </a>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Общая информация</a></li>
                 </ul>
             </div>
             <div class="footer-list">
                 <h3>НЕДВИЖИМОСТЬ</h3>
                 <ul>
-                    <a href="#">
-                        <li>Краткосочная аренда</li>
-                    </a>
-                    <a href="#">
-                        <li>Долгосрочная аренда</li>
-                    </a>
-                    <a href="#">
-                        <li>Продажа недвижимости</li>
-                    </a>
-                    <a href="#">
-                        <li>Добавить недвижимость</li>
-                    </a>
+                    <li><a href="#">Краткосочная аренда</a></li>
+                    <li><a href="#">Долгосрочная аренда</a></li>
+                    <li><a href="#">Продажа недвижимости</a></li>
+                    <li><a href="#">Добавить недвижимость</a></li>
                 </ul>
             </div>
             <div class="footer-contacts">
                 <h3>Контакты</h3>
                 <div class="footer-contacts-icons flex">
-                    <a href="#"><img src="./images/skype 1.png" alt="Skype"></a>
-                    <a href="#"><img src="./images/whatsapp 1.png" alt="WhatsApp"></a>
+                    <a href="#"><img src="./images/skype.png" alt="Skype"></a>
+                    <a href="#"><img src="./images/whatsapp.png" alt="WhatsApp"></a>
                     <a href="#"><img src="./images/Viber.png" alt="Viber"></a>
                     <a href="#"><img src="./images/Telegram.png" alt="Telegram"></a>
                 </div>
@@ -1154,15 +1259,15 @@
             <div class="social">
                 <h3>Социальные сети</h3>
                 <div class="footer-contacts-icons flex">
-                    <a href="#"><img src="./images/facebook 1.png" alt=""></a>
-                    <a href="#"><img src="./images/vk 1.png" alt=""></a>
-                    <a href="#"><img src="./images/instagram 1.png" alt=""></a>
-                    <a href="#"><img src="./images/linkedin 1.png" alt=""></a>
-                    <a href="#"><img src="./images/twitter 1.png" alt=""></a>
-                    <a href="#"><img src="./images/odnoklassniki 1.png" alt=""></a>
+                    <a href="#"><img src="./images/facebook.png" alt=""></a>
+                    <a href="#"><img src="./images/vk.png" alt=""></a>
+                    <a href="#"><img src="./images/instagram.png" alt=""></a>
+                    <a href="#"><img src="./images/linkedin.png" alt=""></a>
+                    <a href="#"><img src="./images/twitter.png" alt=""></a>
+                    <a href="#"><img src="./images/odnoklassniki.png" alt=""></a>
                 </div>
                 <div class="flex btn-follow">
-                    <button class="h2-text flex"><img src="./images/facebook white.png" alt="">
+                    <button class="h2-text flex"><img src="./images/facebook-white.png" alt="">
                         Подписаться</button>
                     <p>14 000 человек</p>
                 </div>

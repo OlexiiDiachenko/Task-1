@@ -10,6 +10,10 @@ body {
     width: 0;
 }
 
+.media {
+    display: none;
+}
+
 /* Header */
 
 .header {
@@ -19,6 +23,7 @@ body {
     background: var(--background-color-white);
     box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.3);
     justify-content: space-between;
+    position: relative;
 }
 
 .container {
@@ -29,7 +34,7 @@ body {
 .logo img {
     position: absolute;
     top: 10pt;
-    left: 3%;
+    left: 75px;
     border-radius: 0;
 }
 
@@ -94,6 +99,8 @@ nav a {
     line-height: 25px;
     background: #f8f8f8;
     justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .menus {
@@ -191,27 +198,24 @@ ul.menus li.menus-filter {
     border: none;
     background: none;
     position: absolute;
-    right: 60px;
+    right: 30px;
 }
 
 /* Presentation */
 
 .presentation {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
     background-image: url(../images/background.png);
     height: 650px;
     position: relative;
+    align-items: center;
+    padding-left: 75px;
 }
 
-.text {
-    width: max-content;
-    position: relative;
-    top: 200px;
-    left: 50px;
-}
-
-.presentation h1 {
-    margin: 0;
+.presentation h1,
+.presentation h4.speech {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .presentation button {
@@ -222,12 +226,22 @@ ul.menus li.menus-filter {
     border-radius: 56px;
     width: 300px;
     height: 80px;
+    margin-top: 40px;
 }
 
-.presentation-buttons {
+.presentation h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+div.slider {
+    text-align: center;
+    justify-content: center;
     position: absolute;
+    width: 100%;
     bottom: 30px;
-    left: 880px;
 }
 
 .presentation-buttons button {
@@ -244,6 +258,10 @@ ul.menus li.menus-filter {
 }
 
 /* Booking */
+
+.booking img {
+    border-radius: 0;
+}
 
 .filter {
     align-items: center;
@@ -285,11 +303,11 @@ ul.menus li.menus-filter {
 
 
 .content .mg-t {
-    margin-top: 10%;
+    margin-top: 60px;
 }
 
 .content .mg-b {
-    margin-bottom: 20%;
+    margin-bottom: 40px;
 }
 
 .filter-content select {
@@ -367,9 +385,10 @@ ul.menus li.menus-filter {
     border: 1px solid rgba(214, 214, 214, 0.4);
     border-radius: 17px;
     align-items: center;
+    transition: ease-in-out 0.2s;
 }
 
-.shadow {
+.result-info:hover {
     background: var(--background-color-white);
     box-shadow: 5px 5px 20px grey;
 }
@@ -392,7 +411,6 @@ table td.center {
     padding: 10px 20px;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
-    justify-content: center;
 }
 
 table td.center img {

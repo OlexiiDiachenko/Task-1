@@ -1,0 +1,349 @@
+@media (max-width: 480px) {
+    .media {
+        display: block;
+    }
+
+    .header-container,
+    .navigation,
+    .menu,
+    .speech {
+        display: none;
+    }
+
+    /* Header */
+
+    .header {
+        max-width: 100%;
+        padding: 27px;
+    }
+
+    .header img[alt='Logo'] {
+        width: 51px;
+        height: 50px;
+        top: 15px;
+        left: 23px;
+    }
+
+    .header img[alt='menu'] {
+        width: 31px;
+    }
+
+    /* Presentation */
+
+    .presentation {
+        display: flex;
+        padding-left: 22px;
+        padding-right: 42px;
+        max-width: 100%;
+        position: relative;
+        justify-content: flex-start;
+    }
+
+    .presentation h1.h0 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .presentation pre.media {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-transform: uppercase;
+        white-space: inherit;
+        color: #ffffff;
+    }
+
+    .text button {
+        margin-top: 23px;
+        width: 200px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.24);
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /* Booking */
+
+    .booking {
+        max-width: 100%;
+        padding-top: 52px;
+    }
+
+    .filter {
+        position: relative;
+    }
+
+    .filter-menu {
+        margin: 0;
+        height: 48px;
+        z-index: 2;
+    }
+
+    .filter-menu .filters-text {
+        margin: 0;
+    }
+
+    .filter .active {
+        width: 260px;
+        z-index: 3;
+    }
+
+    .filter .filter-menu h4 {
+        display: none;
+    }
+
+    .filter .filter-menu h4.media-active {
+        display: block;
+        z-index: 3;
+    }
+
+    .filter-content {
+        padding-left: 20px;
+        padding-right: 40px;
+        padding-bottom: 60px;
+        padding-top: 30px;
+    }
+
+    .filter-content .content {
+        margin: 0;
+    }
+
+    .content-info h1 {
+        padding-bottom: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .filter-content select {
+        border: 1px solid #F1F1F1;
+        border-radius: 6px;
+        height: 46px;
+    }
+
+    .filter-content .grid-3 {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content .mg-t,
+    .content .mg-b {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .content-info {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+
+    .content-last {
+        padding-bottom: 40px;
+    }
+
+    .filter-content .buttons {
+        flex-direction: column;
+    }
+
+    .buttons .btn-1 {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    /* Results */
+
+    .results {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mgt-60 {
+        padding: 0;
+    }
+
+    .results-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .results-text-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+    }
+
+    .show-all h3 {
+        margin: 0;
+        color: #4C5159;
+    }
+
+    .show-all a {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .results-text h1 {
+        margin: 0;
+        color: #3B3B3B;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+    }
+
+    .result-info-grid {
+        overflow: scroll;
+    }
+
+    .result-info .image img {
+        width: 300px;
+    }
+
+    .result-info {
+        max-width: 325px;
+    }
+
+    .result-info .h2-table {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 32px;
+        color: #3B3B3B;
+    }
+
+    .result-info .h2-results {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #4C5159;
+    }
+
+    .result-info .h4-card {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #3B3B3B;
+    }
+
+    .unik {
+        position: relative;
+        color: #CF1B2B;
+    }
+
+    .unik::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: #CF1B2B;
+    }
+
+    table td.center {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3B3B3B;
+        padding-left: 0;
+        padding-right: 0;
+        width: 25%;
+    }
+
+    .result-info .center img {
+        float: left;
+    }
+
+    .buttons-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .buttons-media button {
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 105, 164, 0.23);
+        border: none;
+        border-radius: 50px;
+        padding: 0;
+    }
+
+    .buttons-media button.left-radio {
+        margin-right: 40px;
+    }
+
+    .buttons-media button.right-radio {
+        margin-left: 15px;
+    }
+
+    .buttons-media .radio {
+        width: 12px;
+        height: 12px;
+        margin-right: 25px;
+        border: 1px solid #4BADDB;
+        border-radius: 50px;
+    }
+
+    .active-radio {
+        background-color: #4BADDB;
+    }
+
+    .results-buttons-filter {
+        flex-direction: column;
+    }
+
+    .second-refresh {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: max-content;
+    }
+
+    .third-refresh {
+        margin-bottom: 30px;
+        width: max-content;
+    }
+
+    /* Advantege */
+
+    /* Questions */
+
+    /* Contacts */
+
+    /* Footer */
+
+
+    .advantege,
+    .subscribe,
+    .building-company-info,
+    .questions,
+    .contacts,
+    .footer {
+        display: none;
+    }
+
+}

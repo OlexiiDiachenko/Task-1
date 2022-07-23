@@ -127,7 +127,7 @@ body {
     margin-bottom: 3em;
 }
 
-.shadow {
+.result-info:hover {
     background: var(--background-color-white);
     box-shadow: 5px 5px 20px grey;
 }
