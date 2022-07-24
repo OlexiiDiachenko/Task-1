@@ -169,7 +169,8 @@
     .results {
         padding-top: 30px;
         padding-left: 20px;
-        padding-right: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 0;
     }
 
     .mgt-60 {
@@ -187,6 +188,11 @@
         flex-direction: column;
         align-items: flex-start;
         padding-left: 0;
+    }
+
+    .show-all {
+        padding: 0;
+        width: 100%;
     }
 
     .show-all h3 {
@@ -219,6 +225,10 @@
 
     .result-info {
         max-width: 325px;
+    }
+
+    .result-info:hover {
+        box-shadow: none;
     }
 
     .result-info .h2-table {
@@ -283,6 +293,10 @@
         padding-bottom: 60px;
     }
 
+    .last-component-buttons {
+        padding-bottom: 0;
+    }
+
     .buttons-media button {
         width: 40px;
         height: 40px;
@@ -330,6 +344,66 @@
 
     /* Advantege */
 
+    .advantege {
+        flex-direction: column;
+    }
+
+    .advantege .advantege-strategy-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 60px;
+        background: url(../images/advantege.png) repeat;
+        color: #ffffff;
+        box-sizing: content-box;
+    }
+
+    .advantege-strategy-media .advantege-strategy-image-media {
+        padding-bottom: 105px;
+        position: relative;
+    }
+
+    .advantege-strategy-media .last-component {
+        padding-bottom: 0px;
+    }
+
+    .advantege-strategy-media .advantege-strategy-image-media::after {
+        content: '.....';
+        font-size: 30px;
+        letter-spacing: 10px;
+        color: #4BADDB;
+        position: absolute;
+        transform: rotate(90deg);
+        bottom: 40px;
+        left: 20px;
+        right: 0;
+    }
+
+    .advantege-strategy-media .last-component::before {
+        content: '.....';
+        font-size: 30px;
+        letter-spacing: 10px;
+        color: #4BADDB;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -70px;
+        right: 0;
+        left: 20px;
+    }
+
+    .advantege-strategy-media .fourth-item::after {
+        content: none;
+    }
+
+    .advantege-strategy-media .last-component::after {
+        content: none;
+    }
+
+    .advantege-content {
+        display: none;
+    }
+
     /* Questions */
 
     /* Contacts */
@@ -337,7 +411,9 @@
     /* Footer */
 
 
-    .advantege,
+
+
+
     .subscribe,
     .building-company-info,
     .questions,
