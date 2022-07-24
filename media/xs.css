@@ -721,13 +721,19 @@
     .contacts {
         flex-direction: column;
         padding-top: 30px;
-        padding-bottom: 30px;
     }
 
     .phrases {
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .phrases-low {
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
     }
 
     .phrases h1,
@@ -750,10 +756,16 @@
         padding-bottom: 30px;
     }
 
-    .phrases h2 {
+    .phrases h2.h2 {
         font-weight: 600;
         font-size: 20px;
         line-height: 27px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .phrases h2.massanger {
+        padding-bottom: 20px;
     }
 
     .phrases .flex p.h5-number {
@@ -769,22 +781,98 @@
 
     .phrases .gr-4-1 {
         grid-template-columns: 1fr 1fr;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .form-2 {
         width: 100%;
     }
 
-    /* Footer */
-
-
-
-
-
-    .footer {
-        display: none;
+    .form-2 form {
+        width: 100%;
+        padding: 30px 20px;
     }
 
+    /* Footer */
+
+    footer.footer {
+        width: 100%;
+    }
+
+    .top-footer {
+        flex-direction: column;
+        padding: 50px 83px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .top-footer h3 {
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    h3.media-pt-18 {
+        padding-top: 18px;
+    }
+
+    h3.media-pt-38 {
+        padding-top: 38px;
+        padding-bottom: 30px;
+    }
+
+    .top-footer ul {
+        margin: 0;
+    }
+
+    .top-footer li {
+        padding-bottom: 12px;
+    }
+
+    .top-footer .footer-list ul li {
+        font-size: 16px;
+    }
+
+    .top-footer .social {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .top-footer .social a {
+        padding-right: 20px;
+    }
+
+    .footer-contacts-icons {
+        padding-bottom: 33px;
+    }
+
+    .top-footer .social a img {
+        margin: 0;
+        max-width: 28px;
+    }
+
+    .top-footer .social .last-child {
+        padding-right: 0;
+    }
+
+    .top-footer .btn-follow button {
+        margin: 0;
+        width: 100%;
+    }
+
+    footer.footer .bottom-footer {
+        padding: 30px 60px;
+    }
+
+    .bottom-footer-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 120px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 11px;
+        color: #3B3B3B;
+
+    }
 }
