@@ -568,8 +568,8 @@
     }
 
     .media-img .right-top {
-        top: 30px;
-        right: 27px;
+        top: 15px;
+        right: 15px;
     }
 
     .company-info-text {
@@ -873,6 +873,5 @@
         font-size: 8px;
         line-height: 11px;
         color: #3B3B3B;
-
     }
 }
