@@ -345,7 +345,7 @@
     /* Advantege */
 
     .advantege {
-        flex-direction: column;
+        width: 100%;
     }
 
     .advantege .advantege-strategy-media {
@@ -392,21 +392,390 @@
         left: 20px;
     }
 
-    .advantege-strategy-media .fourth-item::after {
-        content: none;
-    }
-
+    .advantege-strategy-media .fourth-item::after,
     .advantege-strategy-media .last-component::after {
         content: none;
     }
 
     .advantege-content {
+        padding: 50px 20px;
+    }
+
+    .advantege h1.h1-filter {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        color: #4C5159;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+
+    .advantege-content p.p-adv {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        margin: 0;
+    }
+
+    .advantege-content p.h3 {
+        margin: 0;
+        padding-top: 25px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #3B3B3B;
+    }
+
+    .advantege-content .rooms {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantege-content .rooms img {
+        width: 100%;
+    }
+
+    .advantege-content .rooms img[alt='room-1'] {
+        margin-bottom: 15px;
+    }
+
+    .advantege-content .advantege-indicators {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantege-stats .stats {
+        padding-top: 40px;
+    }
+
+    .advantege-indicators .first-stat {
+        padding-top: 0;
+    }
+
+    .advantege-indicators h1.h1-stats {
+        margin: 0;
+    }
+
+    /* Subscribe */
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .subscribe .sub-text {
+        padding-right: 0px;
+    }
+
+    .subscribe .sub-text h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        margin: 0;
+    }
+
+    .subscribe .sub-text p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .subscribe .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 0 0;
+    }
+
+    .form h3.p1-stats {
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .form .filling {
+        flex-direction: column;
+    }
+
+    .form .filling input {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .form .filling button {
+        width: 100%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        background: #4C5159;
+        margin-bottom: 15px;
+    }
+
+    .form p,
+    form a {
+        line-height: 30px;
+        margin: 0;
+    }
+
+    /* Building Company Info */
+
+    .company-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobile-flex {
+        padding-bottom: 30px;
+    }
+
+    .media-img {
+        position: relative;
+        height: 300px;
+    }
+
+    .media-img img {
+        position: absolute;
+        border-radius: 12px;
+        width: 305px;
+        transform: none;
+    }
+
+    .media-img .left-bottom {
+        bottom: 0px;
+        left: 20px;
+    }
+
+    .media-img .middle {
+        top: 50px;
+        left: 55px;
+    }
+
+    .media-img .right-top {
+        top: 30px;
+        right: 27px;
+    }
+
+    .company-info-text {
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .company-info-text h1,
+    .company-info-text p {
+        margin: 0;
+    }
+
+    .company-info-text h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        padding-bottom: 25px;
+    }
+
+    .company-info-text p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 25px;
+    }
+
+    .company-info-text .btn-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: 100%;
+        align-items: flex-start;
+    }
+
+    .company-info-text .btn-info .white {
+        margin-bottom: 25px;
+    }
+
+    .grey {
+        width: 100%;
+        margin: 0;
+        clip-path: polygon(0 0, 94% 0, 100% 100%, 0 100%);
+    }
+
+    .company-info-text .btn-info .grey button {
+        margin: 0;
+    }
+
+    .grey::after {
         display: none;
+    }
+
+    .company-info-text-table {
+        width: 100%;
+        padding-top: 30px;
+        padding-right: 0;
+        padding-bottom: 32px;
+        padding-left: 0px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 15px 20px rgb(172, 172, 172, 1);
+    }
+
+    .company-info-text-table .flex {
+        padding-left: 30px;
+        padding-bottom: 12px;
+        margin: 0;
+    }
+
+    .company-info-text-table .left .last {
+        border: none;
+        padding-bottom: 12;
+        margin: 0;
+    }
+
+    .company-info-text-table .right .last {
+        padding-bottom: 31px;
+    }
+
+    .resident-card {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+
+    .resident-card img {
+        width: 100%;
+    }
+
+    .resident-card h1,
+    .resident-card p {
+        margin: 0;
+    }
+
+    .resident-card h1 {
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .resident-card p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 20px;
     }
 
     /* Questions */
 
+    .questions {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .question,
+    .q-a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .questions h1 {
+        margin: 0;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .questions details {
+        margin-top: 12px;
+    }
+
+    .questions details summary {
+        margin: 0;
+        position: relative;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .questions summary::after {
+        top: 40px;
+        right: 10px;
+    }
+
     /* Contacts */
+
+    .contacts {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .phrases {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .phrases h1,
+    .phrases p,
+    .phrases h2 {
+        margin: 0;
+    }
+
+    .phrases h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .phrases p.h5-buttons {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .phrases h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .phrases .flex p.h5-number {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .phrases .flex {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .phrases .gr-4-1 {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .form-2 {
+        width: 100%;
+    }
 
     /* Footer */
 
@@ -414,10 +783,6 @@
 
 
 
-    .subscribe,
-    .building-company-info,
-    .questions,
-    .contacts,
     .footer {
         display: none;
     }

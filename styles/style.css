@@ -553,7 +553,8 @@ table td.large {
 }
 
 .advantege-content {
-    width: 80%;
+    padding-left: 185px;
+    padding-right: 185px;
     margin: 0 auto;
 }
 
@@ -645,12 +646,6 @@ table td.large {
 
 /* Building Company Info */
 
-.building-company {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .company-info {
     width: 100%;
     margin: 0 auto;
@@ -692,6 +687,7 @@ table td.large {
     color: #ffffff;
     background: #4C5159;
     position: relative;
+    margin-right: 40px;
 }
 
 .grey::after {
@@ -699,9 +695,9 @@ table td.large {
     position: absolute;
     height: 49px;
     width: 50px;
-    right: -20px;
+    right: -14px;
     background: #ffffff;
-    transform: skewX(40deg);
+    transform: skewX(30deg);
 }
 
 .white {
@@ -710,9 +706,12 @@ table td.large {
 }
 
 .company-info-text a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
     text-transform: uppercase;
     color: #005889;
-    text-decoration: underline;
 }
 
 .company-info-text-table {
@@ -851,7 +850,6 @@ table td.large {
     list-style: none;
     padding: 20px;
     background: var(--background-color-white);
-    justify-content: space-between;
     margin: 20px 0 0 0;
     border-radius: 6px;
     width: 75vw;
