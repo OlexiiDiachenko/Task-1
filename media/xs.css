@@ -911,6 +911,11 @@
         background-color: #ffffff;
         z-index: 5;
         overflow: scroll;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
 
     .media-menu img{
@@ -1014,7 +1019,6 @@
     .footer-menu-top{
         padding-top: 30px;
         padding-right: 20px;
-        padding-bottom: 10px;
         padding-left: 20px;
     }
 
@@ -1027,17 +1031,31 @@
     .footer-menu-top button{
         justify-content: center;
         align-items: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 26px;
+        color: #3B3B3B;
     }
 
     .footer-menu-top button.btn-header-right{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
         background: linear-gradient(267.54deg, #3BA8DC 0%, rgba(150, 219, 252, 0) 245.24%), #FFFFFF;
         border-radius: 56px;
         margin-top: 30px;
+        width: 100%;
+        height: 56px;
     }
 
     .footer-settings{
         justify-content: space-between;
         padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
     }
 
     .footer-menu .footer-settings button {
@@ -1046,6 +1064,17 @@
         border: 1.5px solid #ffffff;
         width: 52px;
         height: 52px;
+    }
+
+    .footer-bottom{
+        height: 30px;
+        background: #F5F5F5;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 11px;
+        color: #3B3B3B;
+        justify-content: center;
+        align-items: center;
     }
 
 }
