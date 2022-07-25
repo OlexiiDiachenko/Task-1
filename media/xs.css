@@ -1,4 +1,5 @@
 @media (max-width: 480px) {
+
     .media {
         display: block;
     }
@@ -18,7 +19,6 @@
         max-width: 100%;
         padding: 0 27px 0 0;
         justify-content: right;
-
     }
 
     .header img[alt='Logo'] {
@@ -937,6 +937,7 @@
 
     .media-menu section.header img[alt='logo-media']{
         width: 50px;
+        height: 50px;
     }
 
     /* Media Main */
@@ -1070,8 +1071,8 @@
         height: 30px;
         background: #F5F5F5;
         font-weight: 400;
-        font-size: 8px;
-        line-height: 11px;
+        font-size: 10px;
+        line-height: 13px;
         color: #3B3B3B;
         justify-content: center;
         align-items: center;
