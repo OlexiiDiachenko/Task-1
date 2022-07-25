@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -42,7 +43,70 @@
             </div>
         </div>
 
-        <img class="media" src="./images/menu-media.png" alt="menu">
+        <button class="media" type="submit" onclick="func()"><img src="./images/menu-media.png" alt="menu"></button>
+
+        <div class="media media-menu media-show">
+            <section class="header flex">
+                <div class="logo-media">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo-media"></a>
+                </div>
+                <button type="submit" onclick="close()"><img src="./images/close.png" alt=""></button>
+            </section>
+            <section class="main">
+                <section class="filter-meida grid gr-2">
+                    <div class="flex">
+                        <img src="./images/home.png" alt="">
+                        <h1 class="filter-media-text">ПМЖ на кипре</h1>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/blue-star.png" alt="">
+                        <h1 class="filter-media-text">избранное</h1>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/comparison.png" alt="">
+                        <h1 class="filter-media-text">список сравнений</h1>
+                    </div>
+                    <div class="flex">
+                        <img src="./images/search.png" alt="">
+                        <h1 class="filter-media-text">поиск по id</h1>
+                    </div>
+                </section>
+                <section class="media-enter">
+                    <button type="submit" class="flex"><img src="./images/enter.png" alt="">ВОЙТИ в аккаунт</button>
+                </section>
+                <section class="list-menu">
+                    <ul class="media-map">
+                        <li><p>наши проекты</p></li>
+                        <li><p>ПРОДАЖА</p></li>
+                        <li><p>аренда</p></li>
+                        <li><p>информация</p>
+                            <ul>
+                                <li><p>о компании</p></li>
+                                <li><p>новости кипра</p></li>
+                                <li><p>блог</p></li>
+                                <li><p>жизнь на кипре</p></li>
+                                <li><p>стать партнером</p></li>
+                            </ul>
+                        </li>
+                        <li><p>КОНТАКТЫ</p></li>
+                    </ul>
+                </section>
+            </section>
+            <section class="footer-menu">
+                <div class="footer-menu-top">
+                        <button class="flex" type="submit"><img src="./images/phone-call.png" alt="">+357 25 028 476</button>
+                        <button class="btn-header-right btn-md">ПЕРЕЗВОНИТЬ МНЕ</button>
+                </div>
+                <div class="footer-settings flex">
+                    <div class="flex header-info languages">
+                        <a class="h3" href="#"><i class="fa-solid fa-poo"></i>RU</a>
+                        <p>|</p>
+                        <a class="h3" href="#"><img src="./images/England.png" alt="">EN</a>
+                    </div>
+                    <button type="submit"><img src="./images/white-phone.png" alt=""></button>
+                </div>
+            </section>
+        </div>
 
     </header>
     <main>
@@ -192,15 +256,15 @@
 
         <section class="booking">
             <div class="filter flex">
-                <div class="filter-menu flex active">
+                <div data-tab="filter-menu-1" class="filter-menu flex active-booking">
                     <img src="./images/dollar.png" alt="">
                     <h4 class="filters-text h3 media-active">Продажа недвижимости</h4>
                 </div>
-                <div class="filter-menu flex">
+                <div data-tab="filter-menu-2" class="filter-menu flex">
                     <img src="./images/calendar.png" alt="">
                     <h4 class="filters-text h3">Долгосрочная аренда</h4>
                 </div>
-                <div class="filter-menu flex">
+                <div data-tab="filter-menu-3" class="filter-menu flex filter-menu-last">
                     <img src="./images/clock.png" alt="">
                     <h4 class="filters-text h3">Краткосрочная аренда</h4>
                 </div>
@@ -208,27 +272,27 @@
 
             <div class="filter-content">
                 <div class="content grid grid-3">
-                    <div class="content-info mg-t">
+                    <div class="content-info">
                         <h1 class=" h4-input">Город</h1>
                         <select name="filter-content"></select>
                     </div>
-                    <div class=" content-info mg-t">
+                    <div class=" content-info">
                         <h1 class="h4-input">Район</h1>
                         <select name="filter-content"></select>
                     </div>
-                    <div class="content-info mg-t">
+                    <div class="content-info">
                         <h1 class="h4-input">Тип недвижимости</h1>
                         <select name="filter-content"></select>
                     </div>
-                    <div class="content-info mg-b">
+                    <div class="content-info">
                         <h1 class="h4-input">Количество спален</h1>
                         <select name="filter-content"></select>
                     </div>
-                    <div class="content-info mg-b">
+                    <div class="content-info">
                         <h1 class="h4-input">Количество сан.узлов</h1>
                         <select name="filter-content"></select>
                     </div>
-                    <div class="content-last mg-b grid gr-2">
+                    <div class="content-last grid gr-2">
                         <div>
                             <h1 class="h4-input">Мин.цена</h1>
                             <select name="filter-content"></select>
@@ -1302,6 +1366,9 @@
             <h5>© 2016-2022 all right reserved Grand Property</h5>
         </div>
     </footer>
+
+    <script src="./main/main.js"></script>
+    <script src="./main/menu.js"></script>
 
 </body>
 
