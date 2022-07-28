@@ -95,11 +95,8 @@ nav a {
 .menu {
     color: var(--main-text-color);
     height: 56px;
-    line-height: 25px;
     background-color: #f8f8f8;
     justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .menus {
@@ -281,9 +278,11 @@ div.slider {
     border-top-right-radius: 15px;
     color: var(--first-text-color);
     margin-right: 20px;
+    font-size: 14px;
+    line-height: 19px;
 }
 
-.filter-menu-last{
+.filter-menu-last {
     margin-right: 0;
 }
 
@@ -308,9 +307,9 @@ div.slider {
     gap: 20px;
 }
 
-.filter-content h1{
+.filter-content h1 {
     padding-bottom: 8px;
-    margin-top: 0 ;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -624,7 +623,7 @@ table td.large {
     padding: 20px;
     border-radius: 5px;
     border: none;
-    width: 50%;
+    width: 500px;
     margin-right: 2rem;
     font-weight: 400;
     font-size: 20px;
@@ -709,7 +708,6 @@ table td.large {
 .company-info-text-table {
     justify-content: space-between;
     padding: 30px;
-    max-width: 680px;
     width: 100%;
     box-shadow: 10px 10px 10px rgb(172, 172, 172, 0.9);
 }
@@ -790,7 +788,6 @@ table td.large {
 /* Questions */
 
 .questions {
-    height: max-content;
     width: 100%;
     background: url(../images/quastions.png);
     position: relative;
@@ -825,8 +822,8 @@ table td.large {
 .q-a {
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     z-index: 3;
+    max-width: 100%;
 }
 
 .q-a .flex button {
@@ -842,16 +839,17 @@ table td.large {
     list-style: none;
     padding: 20px;
     background: var(--background-color-white);
-    margin: 20px 0 0 0;
+    margin-top: 20px;
     border-radius: 6px;
-    width: 75vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 1170px;
+    position: relative;
 }
 
 .questions summary::after {
     content: url(../images/details.png);
     position: absolute;
-    right: 13%;
+    right: 30px;
 }
 
 .questions p {
@@ -861,9 +859,9 @@ table td.large {
     color: var(--main-text-color);
     padding: 20px;
     background: #F8F8F8;
-    width: 75vw;
     margin: 0;
     margin-top: -5px;
+    max-width: 1170px;
 }
 
 /* Contacts */

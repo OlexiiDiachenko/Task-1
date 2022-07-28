@@ -198,18 +198,6 @@ button.h5-buttons {
     display: flex;
 }
 
-.fl-2 {
-    display: flex;
-    flex-direction: row;
-    flex: 1fr, 1fr;
-}
-
-.fl-3 {
-    display: flex;
-    flex-direction: row;
-    flex: 1 1;
-}
-
 
 /* Grids */
 
@@ -235,7 +223,7 @@ button.h5-buttons {
 }
 
 .gr-4 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 17px;
 }
 
