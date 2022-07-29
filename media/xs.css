@@ -356,7 +356,13 @@
     }
 
     .results-buttons-filter {
+        max-width: 100%;
         flex-direction: column;
+    }
+
+    .results-buttons-filter .flex button {
+        margin-right: 0;
+        width: max-content;
     }
 
     .second-refresh {
@@ -687,6 +693,7 @@
 
     .resident-card img {
         width: 100%;
+        margin: 0;
     }
 
     .resident-card h1,
@@ -715,8 +722,7 @@
         padding-bottom: 50px;
     }
 
-    .question,
-    .q-a {
+    .question {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -729,6 +735,7 @@
 
     .questions details {
         margin-top: 12px;
+        width: 100%;
     }
 
     .questions details summary {
@@ -738,6 +745,14 @@
         line-height: 22px;
         padding: 10px 20px 10px 20px;
         max-width: 334px;
+    }
+
+    .questions p {
+        max-width: 334px;
+    }
+
+    .first-summary {
+        margin-top: 0;
     }
 
     .questions summary::after {
